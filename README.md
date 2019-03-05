@@ -8,5 +8,7 @@ Taro 是一套遵循 React 语法规范的 多端开发 解决方案。现如今
 ### 1.微信小程序转多端踩坑
  
 转换原有微信小程序应用非常简单，只需要安装 Taro 命令行工具，定位到待转项目根目录，运行命令：
-  
-taro convert
+
+    taro convert
+
+即可完成转换。转换后的代码保存在根目录下的 taroConvert 文件夹下。你需要定位到 taroConvert 目录执行 npm install 命令之后就可以使用 taro build 命令编译到对应平台的代码。
