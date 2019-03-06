@@ -26,6 +26,7 @@ Taro 是一套遵循 React 语法规范的 多端开发 解决方案。现如今
 #### 第二道坑
    
    1.commonJS规范和es6规范的问题
-	export 的报错, 部分module.exports会报错，改成export
+   export 的报错, 部分module.exports会报错，改成export
+
    2.部分组件还没有，会直接导致报错，例如cover-view
    		
